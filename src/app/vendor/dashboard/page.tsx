@@ -1,4 +1,3 @@
-// src/app/vendor/dashboard/page.tsx
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -28,7 +27,6 @@ export default function VendorDashboard() {
   };
 
   useEffect(() => {
-    // Replace this with an API call
     setOrders(dummyOrders);
   }, []);
 
